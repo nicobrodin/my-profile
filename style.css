@@ -1,0 +1,131 @@
+body { 
+	background-color: #FFFFFF;
+    color: #1A1A19;
+    font-family: Courier, monospace;
+}
+
+h1, h2 { 
+
+	font-family: Copperplate, fantasy;
+
+
+
+
+}
+
+H1 { 
+
+	color:#31511E;
+	font-size: 35px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-weight: 700;
+
+}
+
+h2 { 
+
+	color: #00241B;
+	font-weight:500;
+	font-size:30px;
+	
+
+
+
+}
+
+a { 
+	text-decoration: none;
+	color:#FEFAE0;
+	font-weight:bold;
+
+
+}
+
+a:hover { 
+	color:black;
+
+}
+
+.container { 
+	width:700px;
+	margin:40px auto;
+}
+
+@media (max-width:760px) { 
+.container { 
+	width: 600px;
+}	
+}	
+
+
+@media (max-width:500px) { 
+.container { 
+	width: 400px;
+}	
+}	
+
+.card-green { 
+	background-color:#7E8D85;
+	padding:40px;
+	box-shadow:0px 10px 30px rgba(0,0,0,0.7);
+	border-radius:4px;
+	margin:30px;
+	text-align: center;
+}
+
+.img-circle { 
+	border-radius: 50%;
+}
+
+.btn-black { 
+	background-color:#FEFAE0 ;
+	color: black;
+	padding:15px 20px;
+	border-radius:4px;
+}
+
+.btn-black:hover { 
+background-color: black;
+color:white;
+}
+
+.list-inline { 
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li { 
+	display: inline;
+	padding: 10px;
+}
+
+
+.list-inline i  { 
+	font-size:70px;
+	color:#FEFAE0;
+
+}
+
+
+.list-inline i:hover  { 
+	color: black;
+}
+
+#introduction p { 
+	margin-bottom:40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
